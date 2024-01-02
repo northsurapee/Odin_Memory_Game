@@ -1,0 +1,27 @@
+.app {
+  margin: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-container {
+  pointer-events: none;
+  opacity: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.loading-screen {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  pointer-events: all;
+}

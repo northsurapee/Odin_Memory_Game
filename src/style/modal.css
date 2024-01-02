@@ -1,0 +1,41 @@
+/* modal.css */
+
+.modal {
+  padding: 32px 64px;
+  background-color: white;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 3px 1px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.modal button {
+  cursor: pointer;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #0e79dd;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.modal button:hover {
+  opacity: 0.5;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: gray;
+  opacity: 0.5;
+}

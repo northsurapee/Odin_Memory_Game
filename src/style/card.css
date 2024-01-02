@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 1px 10px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card:hover {
+  opacity: 0.7;
+}
+
+.card img {
+  border-radius: 12px;
+  border: 1px solid lightgray;
+
+  padding: 20px;
+}
+
+.card h3 {
+  margin: 10px;
+}

@@ -13,3 +13,13 @@ Currently, two official plugins are available:
 - `npm run dev` : to run web on local host
 - `npx prettier . --write` : to style all files
 - `npx prettier . --check` : Check if all files styled
+
+## Design
+
+Component
+
+- App + style
+- Card Container + style
+  - Card + style
+- Score Board + style
+- Modal + style
