@@ -1,25 +1,7 @@
-# React + Vite
+# Odin_Memory_Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PokeAPI memory game create by Vite + React to practice `useEffect` React hook.
 
-Currently, two official plugins are available:
+Link : https://northsurapee.github.io/Odin_Memory_Game/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Commands
-
-- `npm install` : (**Must** run after clone this template) to install all node_modules
-- `npm run dev` : to run web on local host
-- `npx prettier . --write` : to style all files
-- `npx prettier . --check` : Check if all files styled
-
-## Design
-
-Component
-
-- App + style
-- Card Container + style
-  - Card + style
-- Score Board + style
-- Modal + style
+*** If have some time, fix card loading na!
